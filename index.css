@@ -2,14 +2,42 @@ body {
     background-image: url("./imagens/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 94%);
     background-repeat: no-repeat;
-    background-position: right 0% bottom 77%;
+    background-position: right 0% bottom 100%;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
-main {
-   
+section {
+    width: 374px;
+    margin: 25% auto;
+    background: ivory;
+    border-radius: 20px;
+    overflow: hidden;
+
 }
 
+.caixa-container{
+    border-radius: 20px;
+}
 
+ .img{
+    width: 100%;
+}
+
+.container1{
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.container1 h1{
+    font-weight: 900;
+    font-size: 22px;
+    padding-bottom: 1.5rem;
+}
+
+.container1 p{
+    font-size: 16px;
+    margin: 0 10%;
+}
 
 
 
