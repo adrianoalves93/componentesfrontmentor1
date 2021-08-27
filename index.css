@@ -2,13 +2,13 @@ body {
     background-image: url("./imagens/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 94%);
     background-repeat: no-repeat;
-    background-position: right 0% bottom 100%;
+    background-position: right 0% bottom 110%;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 section {
     width: 374px;
-    margin: 25% auto;
+    margin: 7% auto;
     background: ivory;
     border-radius: 20px;
     overflow: hidden;
@@ -16,7 +16,7 @@ section {
 }
 
 .caixa-container{
-    border-radius: 20px;
+    padding: 0 15px;
 }
 
  .img{
@@ -25,21 +25,88 @@ section {
 
 .container1{
     text-align: center;
-    margin: 2rem auto;
+    margin: 2rem auto 0px 0;
 }
 
 .container1 h1{
     font-weight: 900;
-    font-size: 22px;
+    font-size: 26px;
     padding-bottom: 1.5rem;
 }
 
 .container1 p{
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 10%;
+    color: #808080b2;
+    line-height: 1.5;
 }
 
+.container2{
+    margin: 0.6rem 0 1rem 0;
+    padding: 0 22px;
+}
 
+.lista{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: 'Red Hat Display', sans-serif;
+    background: #f5f7ff;
+    border-radius: 20px;
+}
+
+.lista li{
+    margin: 17px 10px;
+}
+
+li p {
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.preco{
+    margin-top: 4px;
+    color: #808080b2;
+    font-weight: unset;
+    
+}
+
+.change {
+    padding-left: 57px;
+    font-size: 11px;
+    color: rgb(52, 52, 204);
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.container3{
+    text-align: center;
+    padding: 0 22px;
+}
+
+.container3 input {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 12px;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 2px 19px 5px hsl(233deg 19% 91%);
+    border: none;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 1.7rem;
+    font-size: 12px;
+}
+
+.container3 p{
+    margin-bottom: 3rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    color: rgba(104, 102, 102, 0.815);
+    font-size: 13px;
+}
 
 
 
